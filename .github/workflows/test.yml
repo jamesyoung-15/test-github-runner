@@ -1,0 +1,17 @@
+name: test-gh-actions
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+    deploy:
+        runs-on: "self-hosted"
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+            - name: Run tests
+              run: |
+                echo "Running tests"
+                echo "Tests passed"
