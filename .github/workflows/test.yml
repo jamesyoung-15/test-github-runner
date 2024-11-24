@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: [self-hosted]
+    runs-on: [pve-vm-ghrunner]
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
