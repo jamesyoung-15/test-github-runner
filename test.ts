@@ -1,6 +1,4 @@
-export {};
-
-let message: string = 'Hello, World!';
+const message: string = 'Hello, World!';
 
 const logMessage = (message: string) => {
 console.log(message);
