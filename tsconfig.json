@@ -1,0 +1,6 @@
+{
+    "types": ["node"],
+    "compilerOptions": {
+        "lib": ["es2020", "dom", "es6"]
+    }
+}

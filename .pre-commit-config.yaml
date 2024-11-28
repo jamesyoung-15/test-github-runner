@@ -5,7 +5,13 @@ repos:
     -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
--   repo: https://github.com/psf/black
-    rev: 22.10.0
+-   repo: local
     hooks:
-    -   id: black
+    - id: eslint
+      name: eslint
+      entry: npx eslint
+      language: system
+    - id: prettier
+      name: prettier
+      entry: npx prettier
+      language: system

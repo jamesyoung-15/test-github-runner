@@ -5,3 +5,7 @@ console.log(message);
 }
 
 logMessage(message);
+
+const test = new Map<string, string>();
+
+test.set('key', 'value');
